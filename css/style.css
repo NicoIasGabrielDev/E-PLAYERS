@@ -74,6 +74,30 @@ ul{
     font-size: 25px;
 }
 .banner .btn{
-    margin-top: 250gitpx;
+    margin-top: 250px;
+}
+.sobre{
+    background-image: url(../Imagens/Teams/T6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    clip-path: polygon(100% 59%, 0 65%, 0 24%, 100% 17%);
+    width: 100%;
+    min-height: 350px;
+    padding: 250px 0;
+    color: white;
+}
+.sobre .container{
+    display: flex;
+    justify-content: flex-start;
+}
+.sobre .container div{
+    width: 50%;
+}
+.campea{
+    position: absolute;
+    right: 15%;
+    top: 700px;
+   
 }
 
