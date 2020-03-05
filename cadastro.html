@@ -36,7 +36,7 @@ git<html lang="pt-br">
             <h1>cadastro de jogador</h1>
 
         </div>
-        <form action="" method="post">
+        <form action="" method="post" class="form_cadastro">
 
             <div class="campo">
                 <label for="nome">Nome</label>
@@ -44,34 +44,33 @@ git<html lang="pt-br">
             </div>
 
             <div class="campo">
-                <label for="nik">Nome</label>
+                <label for="nik">Nickname</label>
                 <input type="text" name="nikhogador" id="nik">
             </div>
 
             <div class="campo">
-                <label for="email">Nome</label>
+                <label for="email">E-mail</label>
                 <input type="email" name="email" id="email">
             </div>
 
             <div class="campo">
-                <label for="senha">Nome</label>
+                <label for="senha">senha</label>
                 <input type="password" name="senha" id="senha">
             </div>
 
             
             <div class="campo">
-                <label for="senhaconfirma">Nome</label>
+                <label for="senhaconfirma">Confirme sua senha</label>
                 <input type="password" name="senhaconfirma" id="senhaconfirma">
             </div>
 
             <div class="campo">
-                <label for="nascmento">Nome</label>
-                <input type="date" name="nascmento" id="nascmento">
+                <label for="nascmento">Data de Nascimento</label>
+                <input type="date" name="nascmento" id="nascmento" max="2020-03-05">
             </div>
 
             <div class="campo">
-                <label for="pais">Nome</label>
-                <input name="pais" id="pais">
+                <label for="pais">País</label>
                 <select name="pais" id="pais">
                     <option value=""> selecione uma opção...</option>
                     <option value="br">brasil</option>
@@ -88,12 +87,13 @@ git<html lang="pt-br">
                 <input type="radio" name="sexo" value="sex" id="sexo">
                 <label for="feminino">feminino</label>
             </fieldset>
-            <div class="campo">
+            <div class="campo termos">
                 <input type="checkbox" name="check" id="check">
-                <label for="checkbok">Declaro que li os termos</label>
+                <label for="checkbok">Declaro que li os termos de privacidade e segurança<a href=""></a></label>
             </div>
+            <button type="submit" class="botao gradient"> Cadastrar</button>
         </form>
-        <button type="submit"> Cadastrar</button>
+        
         
     </main>
     <!-- fim main -->
