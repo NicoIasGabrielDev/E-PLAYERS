@@ -188,3 +188,21 @@ fieldset label{
 }
 .botao{
 color: #fff; text-transform: uppercase; letter-spacing: 2px;padding: 8px 12px; border-radius: 5px; border: none; width: 60%; cursor: pointer ; margin-top: 3em;}
+
+@media screen and (max-width:1200px){
+.container{ width: 95%; }
+.sobre .container div{width: 50%; z-index: 2;}
+.campea { top: 600px; right: 20px;}
+}
+
+@media screen and (max-width:768px){
+    header img{ max-width: 250px;}
+    .container{width: 98%;}
+    .banner{width: 768px;}
+    .campea{ right: 0px; top: 750px;max-width:500px ; z-index: 1;}
+}
+
+
+
+
+
